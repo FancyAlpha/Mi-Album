@@ -1,0 +1,98 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Righteous|Varela+Round');
+
+
+body, html {
+    width: 100%;
+    background: #20948B;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: black;
+    color: white;
+}
+
+header h1, footer h1 {
+    color: white;
+}
+
+header, footer {
+    margin: 10%;
+}
+
+.diamonds-wrapper .d-image img.special1 {
+    height: 100%;
+    width: auto;
+    transform: translateX(50%);
+}
+
+.diamonds-wrapper .business-stats .diamond-content:before {
+    border: 1px solid white;
+}
+
+.solid {
+    background: #DE7A22;
+}
+
+a {
+    color: #DE7A22;
+}
+
+.diamonds-wrapper .business-stats .diamond-content .target1 {
+    transform: rotate(45deg);
+}
+
+.table.darken {
+    background: rgba(0,0,0,0.4);
+}
+
+.table .cell .title {
+    font-size: 2em;
+    font-family: 'Righteous', cursive;
+}
+
+img.special2 {
+    width: 100%;
+    height: auto !important;
+}
+
+img.ex {
+    transform: scale(0.9);
+}
+
+img.ex2 {
+    height: 100%;
+}
+
+img.ex3 {
+    margin: 15% -20%;
+    height: 80%;
+}
+
+img.special3 {
+    transform: rotate(180deg);
+}
+
+img.special4 {
+    height: 90%;
+    padding-top: 5%;
+}
+
+.table .cell .description {
+    text-transform: none;
+    font-size: 1em;
+    line-height: 1.1em;
+    max-width: 50%;
+    margin: auto;
+    font-family: 'Varela Round', sans-serif;
+}
